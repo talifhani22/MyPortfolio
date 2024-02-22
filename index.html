@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+      </head>
+     
+      <body>
+        <script src="tictactoe.js" defer></script>
+        <div id="cursor"></div>
+        <div class="wrapper">
+          <header id="header">
+            <div class="icon" id="menu-btn">
+              <a href="#navbar">
+                <i class="bi bi-list"></i>
+              </a>
+      
+            </div>
+            <div class="hero" id="hero">
+            </div>
+      
+            <div class="desc">
+              <h1>Hey, I'm <span class="name">Talifhani Mukwevho</span>.</h1>
+              <p>A Software Developer.</p>
+            </div>
+          </header>
+          <nav id="navbar">
+            <ul>
+              <li><a href="#header" class="nav-link">Home</a></li>
+              <li><a href="#about" class="nav-link">About</a></li>
+              <li><a href="#work" class="nav-link">My Projects</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+          <section id="about">
+            <h1>About</h1>
+            <div class="container hidden">
+              <div class="img-container">
+                <img src="images/pic1.jpg" />
+              </div>
+              <div>
+                <!-- <h2>Lorem ipsum</h2> -->
+<p>I am very enthusiastic person; I enjoy engaging with people. I love to bring new ideas on the table, always ready to take up the new challenges, dedicated in any situation personal and professional, 
+  I am open minded, and an optimistic person.</p>                
+  <div class="skills-container ">
+                  <h3>Languages</h3>
+                  <ul class="skillset">
+                    <li>C++
+                    </li>
+                    <li>Javascript
+                    </li>
+                    <li>Java 
+                    </li>
+                    <li>Python
+                    </li>
+                    <li>HTML & CSS
+                    </li>
+                    <li>PHP
+                    </li>
+                   
+      
+                  </ul>
+                </div>
+                <div>
+                  <h3>Frameworks & Environments</h3>
+                  <ul class="skillset">
+                    <li>Angular</li>
+                    <li>Git & Github</li>
+                    <li>Visual Studio Code</li>
+                    <li>IntelliJ</li>
+                  </ul>
+                </div>
+                <button onclick="window.location.href='T_Mukwevho_CapaCiTi CV .pdf'">Download CV</button>
+              </div>
+            </div>
+          </section>
+
+          <div class="clearfix"></div>
+          <section id="work">
+            <h1>My Projects</h1>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+            <div id="carousel-wrapper" class="hidden">
+              <div id="menu">
+                <div id="current-option">
+                  <h2 id="current-option-title">Project 1</h2>
+                  <p id="current-option-text">A website provides a platform to communicate with
+                    parents, share information about programs, activities, and events happening at the creche.
+                    <br> Parents can find creche around their area , apply for their kids , 
+                    and also secure spot for their kids to drop off incase they want to go somewhere.</p>
+                </div>
+                
+              </div>
+              <div id="image-ctn" class="img-container">
+                <img src="images/Creche.jpg" id="image" />
+              </div>
+              <div class="demo-code" id="demo-code">
+                <button>
+                  <a href="https://github.com/talifhani22/Daycare" id="demo">Github</a>
+                </button>
+                
+              </div>
+      
+            </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                
+            <div id="carousel-wrapper" class="hidden">
+              <div id="menu">
+                <div id="current-option">
+                  <h2 id="current-option-title">Project 2</h2>
+                  <p id="current-option-text">Digital Campus Structures Inventory eMalahleni:managing the campus infrastructure available in the campus.</p>
+                </div>
+                
+              </div>
+              <div id="image-ctn" class="img-container">
+                <img src="images/tut.jpg" id="image" />
+              </div>
+              <div class="demo-code" id="demo-code">
+                <button>
+                  <a href="https://github.com/talifhani22/-DCSiE-web-app" id="demo">Github</a>
+                </button>
+                <button>
+                  <a href="#" id="code">Code</a>
+                </button>
+              </div>
+      
+            </div>
+              </div>
+            </div>
+            
+            <div class="column">
+              <div class="card">
+            
+            <div id="carousel-wrapper" class="hidden">
+              <div id="menu">
+                <div id="current-option">
+                  <h2 id="current-option-title">Project 3</h2>
+                  <p id="current-option-text">A simple Java Form</p>
+                </div>
+                
+              </div>
+              <div id="image-ctn" class="img-container">
+                <img src="images/form.png" id="image" />
+              </div>
+              <div class="demo-code" id="demo-code">
+                <button>
+                  <a href="https://github.com/talifhani22/Login-and-Register-form" id="demo">Github</a>
+                </button>
+                <button>
+                  <a href="#" id="code">Code</a>
+                </button>
+              </div>
+      
+            </div>
+              </div>
+            </div>
+            
+         
+          </div>  
+          </section>
+          <section id="contact">
+            <h1>Contacts</h1>
+            <div class="form-container">
+              <form action="#" id="form">
+                <div class="input-area">
+                  <label for="name">Name</label>
+                  <input type="text" name="Name" id="name" required>
+                </div>
+                <div class="input-area">
+                  <label for="phone">Phone</label>
+                  <!-- JavaScript ile pattern uygulanacak. -->
+                  <input type="tel" name="Phone" id="phone">
+                </div>
+                <div class="input-area">
+                  <label for="email">E-mail</label>
+                  <input type="email" name="e-mail" id="email" required>
+                </div>
+                <div class="input-area">
+                  <textarea name="message" id="message" rows="3" maxlength="200" wrap="soft" placeholder="Write your message here..." required></textarea>
+                </div>
+      
+                <input type="submit" value="Send">
+              </form>
+            </div>
+          </section>
+          <footer>
+           
+            <ul class="socials">
+              <li><a href="https://github.com/talifhani22" target="_blank"><i class="bi bi-github"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/talifhani-mukwevho-a0139018b" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+              <li><a href="masindi.talifhani22@gmail.com"><i class="bi bi-envelope"></i></a></li>
+              <li><a href="tel:+27793460529"><i class="bi bi-telephone-fill"></i></a></li>
+            </ul>
+          </footer>
+      
+        </div>
+      </body>
+      <script>
+        // Animate on scroll
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    } else {
+      entry.target.classList.remove("show");
+    }
+  });
+});
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((elem) => observer.observe(elem));
+
+// Follow the cursor;
+const cursor = document.getElementById("cursor");
+
+window.addEventListener("mousemove", (e) => {
+  cursor.style.opacity = 1;
+  cursor.style.top = `${e.pageY}px`;
+  cursor.style.left = `${e.pageX}px`;
+});
+
+document.addEventListener("mouseout", () => {
+  cursor.style.opacity = 0;
+});
+
+// Show and Hide nav bar;
+let lastScrollTop = 0;
+let navBar = document.querySelector("nav");
+
+window.addEventListener("scroll", (e) => {
+  let scrollTop = window.scrollY || document.documentElement.scrollTop;
+  if (scrollTop > lastScrollTop) {
+    navBar.style.top = "-8rem";
+  } else {
+    navBar.style.top = "0";
+  }
+  lastScrollTop = scrollTop;
+});
+
+/*=== Projects ===*/
+const project_container = document.querySelector("#carousel-wrapper");
+const demo_container = document.querySelector("#demo-code");
+const prev = document.querySelector("#previous-option");
+const next = document.querySelector("#next-option");
+const project_title = document.querySelector("#current-option-title");
+const project_text = document.querySelector("#current-option-text");
+let project_img = document.querySelector("#image");
+const demo_link = document.querySelector("#demo");
+const code_link = document.querySelector("#code");
+
+// Show/Hide "demo" & "code" buttons;
+project_container.addEventListener("click", () => {
+  demo_container.classList.toggle("open");
+});
+
+// Let's work with work section
+// First we need at least three projects;
+// Each project should have
+/*
+- Title;
+- Text;
+- 2 links:
+  * Demo link
+  * Code link
+*/
+
+let project_titles = ["Project 1", "Project 2", "Project 3"];
+let project_texts = [
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec risus convallis.\n Vestibulum in fermentum ante. Cras dolor ligula, dapibus nec tellus ut, dapibus vestibulum nisi. Sed tincidunt justo nec elit fermentum.",
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec risus convallis, fermentum felis quis.\n Vestibulum in fermentum ante. Cras dolor ligula, dapibus nec tellus ut, dapibus vestibulum nisi. Sed tincidunt justo nec elit fermentum.",
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec risus convallis, fermentum felis quis.\n Vestibulum in fermentum ante. Cras dolor ligula, dapibus nec tellus ut."
+];
+let img_srcs = [
+  "https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=606&q=80",
+  "https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
+  "https://images.unsplash.com/photo-1504600770771-fb03a6961d33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=582&q=80"
+];
+let demo_links = ["#", "#", "#"];
+let code_links = ["#", "#", "#"];
+let index = 0;
+/*
+  When we click on prev button, the following actions take place:
+  1- the title change the -1 if index > 0 / title.length if index = 0;
+  2- the text change the same way;
+  3- the img source also;
+  3- the demo link too;
+  4- the code link too;
+*/
+// Change text;
+function changeText(element, text) {
+  element.innerText = text;
+}
+
+// Change Attribute;
+function changeAttribute(element, attr, text) {
+  element.setAttribute(attr, text);
+}
+// Our main function;
+function changeProject(indexChange) {
+  index += indexChange;
+  if (index < 0) {
+    index = project_titles.length - 1;
+  } else if (index >= project_titles.length) {
+    index = 0;
+  }
+  changeText(project_title, project_titles[index]);
+  changeText(project_text, project_texts[index]);
+  changeAttribute(project_img, "src", img_srcs[index]);
+  changeAttribute(demo_link, "href", demo_links[index]);
+  changeAttribute(code_link, "href", code_links[index]);
+}
+
+// Changing project whenever clickea on next/prev or swiping left/right;
+prev.addEventListener("click", (e) => {
+  e.stopPropagation();
+  animatePrev();
+  setTimeout(function () {
+    changeProject(-1);
+  }, 200);
+});
+next.addEventListener("click", (e) => {
+  e.stopPropagation();
+  animateNext();
+  setTimeout(function () {
+    changeProject(1);
+  }, 200);
+});
+
+// Animate when project changes to previous one;
+function animatePrev() {
+  project_title.style.animation = "prevAnimation 1s ease-out";
+  project_text.style.animation = "prevAnimation 1s ease-out";
+  project_img.style.animation = "prevAnimation .75s ease-out";
+  setTimeout(function () {
+    project_title.style.animation = "";
+    project_text.style.animation = "";
+    project_img.style.animation = "";
+  }, 1000);
+}
+
+// Animate when project changes to next one;
+function animateNext() {
+  project_title.style.animation = "nextAnimation 1s ease-out";
+  project_text.style.animation = "nextAnimation 1s ease-out";
+  project_img.style.animation = "nextAnimation .75s ease-out";
+  setTimeout(function () {
+    project_title.style.animation = "";
+    project_text.style.animation = "";
+    project_img.style.animation = "";
+  }, 1000);
+}
+
+/** === Bonuses === **/
+// Adding some swiping;
+let x1 = 0;
+let y1 = 0;
+project_container.addEventListener("touchstart", function (e) {
+  x1 = e.changedTouches[0].screenX;
+  y1 = e.changedTouches[0].pageY;
+});
+
+project_container.addEventListener("touchend", function (e) {
+  let x2 = e.changedTouches[0].screenX;
+  let y2 = e.changedTouches[0].pageY;
+
+  if (x1 - x2 > 50 && Math.abs(y1 - y2) < 30) {
+    animateNext();
+    setTimeout(function () {
+      changeProject(1);
+    }, 200);
+  } else if (x1 - x2 < -50 && Math.abs(y1 - y2) < 30) {
+    animatePrev();
+    setTimeout(function () {
+      changeProject(-1);
+    }, 200);
+  }
+});
+
+/* ======== Contact Form ======== */
+let input_areas = document.querySelectorAll("input");
+let form = document.getElementById("form");
+let textarea = document.getElementById("message");
+
+// Prevent default of behavior;
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  for (let i = 0; i < input_areas.length - 1; i++) {
+    input_areas[i].value = "";
+    textarea.value = "";
+    let label = input_areas[i].previousElementSibling;
+    label.classList.remove("onfocus");
+  }
+});
+
+// slide the input labels;
+for (let i = 0; i < input_areas.length; i++) {
+  onFocus(input_areas[i]);
+  onBlur(input_areas[i]);
+}
+// input_areas.forEach((area) => {
+
+// });
+
+function onFocus(elem) {
+  /*
+    when the focus starts  we want add the class "onfocus" to the label;
+  */
+  elem.addEventListener("focus", () => {
+    let label = elem.previousElementSibling;
+    label.classList.add("onfocus");
+  });
+}
+function onBlur(elem) {
+  /*
+    when the focus ends  we want remove the class "onfocus" from the label;
+  */
+  elem.addEventListener("blur", () => {
+    if (elem.value == "") {
+      let label = elem.previousElementSibling;
+      label.classList.remove("onfocus");
+    }
+  });
+}
+
+      </script>
+</body>
+
+</html>
